@@ -1,0 +1,159 @@
+body{
+     background-color: #2D3142;
+   }
+
+a span{
+    color: #6CAE75;
+    text-shadow: 2px 2px rgb(8, 2, 2);
+}
+/* header */
+.wrapper{
+     width: 100vw;
+     height: 100vh;
+     /* background-image: url("../img/sunny1.jpeg"); */
+     background-repeat: no-repeat;
+     background-attachment: unset;
+     background-size: cover;
+    
+}
+
+.search-box{
+    float: right;
+    background-color: #2f3640;
+    border-radius: 40px;
+    padding: 10px;
+    height: 40px;
+    border: white;
+}  
+
+.search-box:hover > .search-txt{
+     width: 180px;
+     padding: 0 6px;
+ }  
+   
+.search-box:hover > .search-btn{
+    background-color: white;
+} 
+
+.search-btn{
+     color: #6CAE75;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color:  #2f3640;
+     justify-content: center;
+     align-items: center;
+ } 
+ 
+a svg{
+    color: white !important;
+ }
+
+.search-txt{
+     border: none;
+     background: none;
+     outline: none;
+     color: white;
+     transition: ease 0.4s;
+     float: left;
+     padding: 0;
+     line-height: 20px;
+     width: 0;
+ }
+
+ hr{
+     border-width: 2px;
+     margin: 0;
+     border-color: white;
+ }
+
+
+ /* body */
+
+ h3.location{
+     margin-top: 1.5rem;
+     margin-bottom: 1.5rem;
+     font-family: 'Roboto', sans-serif;
+     color: white;
+     text-shadow: 2px 2px 15px black;
+}
+
+ h1.condition{
+     margin-top: 2.8rem;
+     margin-bottom: 1.6rem;
+     color: white;
+     text-shadow: 2px 2px 10px black;
+ }
+
+ h1.degree{
+    margin-bottom: 5rem;
+    font-size: 5.3rem;
+    color: rgb(218, 204, 179);
+ }
+
+ .degree:after {
+    content: "˚f";
+}
+
+ img.weather{
+     width: 3rem;
+     height: 3em;
+ }
+
+ .lead{
+     color:#dce9f3;
+     text-shadow: 2px 2px  rgb(54, 59, 44);
+ }
+
+#temp-percent{
+    color: white;
+}
+
+#cloudy-percent{
+    color: white;
+}
+
+#raining-percent{
+    color: white;
+}
+
+.temp:after {
+    content: "˚f";
+}
+
+
+
+
+/* set media query */
+@media screen and (min-width: 600px) {
+    .wrapper {
+        width: 70%;
+        margin: 0 auto;
+        height: 100vh;
+    } 
+  }
+
+
+   @media screen and (min-width: 800px) {
+    .wrapper {
+        width: 60%;
+        margin: 0 auto;
+        height: 100vh;
+    } 
+  }
+
+  @media screen and (min-width: 1000px) {
+    .wrapper {
+        width: 50%;
+        height: 100v;
+        margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+        width: 40%;
+        height: 100vh;
+        margin: 0 auto;
+    }
+  } 
